@@ -15,6 +15,13 @@
 		D1FB84381D22345800E24ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1FB84361D22345800E24ED3 /* LaunchScreen.storyboard */; };
 		D1FB84431D22345800E24ED3 /* LFMapViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB84421D22345800E24ED3 /* LFMapViewDemoTests.m */; };
 		D1FB844E1D22345800E24ED3 /* LFMapViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB844D1D22345800E24ED3 /* LFMapViewDemoUITests.m */; };
+		D1FB84661D22348A00E24ED3 /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB845D1D22348A00E24ED3 /* MapLocation.m */; };
+		D1FB84671D22348A00E24ED3 /* PAAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB845F1D22348A00E24ED3 /* PAAnnotation.m */; };
+		D1FB84681D22348A00E24ED3 /* PACalloutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB84611D22348A00E24ED3 /* PACalloutAnnotation.m */; };
+		D1FB84691D22348A00E24ED3 /* PACalloutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB84631D22348A00E24ED3 /* PACalloutAnnotationView.m */; };
+		D1FB846A1D22348A00E24ED3 /* PAMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1FB84651D22348A00E24ED3 /* PAMapView.m */; };
+		D1FB846D1D22435100E24ED3 /* ditu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FB846B1D22435100E24ED3 /* ditu@2x.png */; };
+		D1FB846E1D22435100E24ED3 /* ditu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D1FB846C1D22435100E24ED3 /* ditu@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,18 @@
 		D1FB84491D22345800E24ED3 /* LFMapViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LFMapViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1FB844D1D22345800E24ED3 /* LFMapViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LFMapViewDemoUITests.m; sourceTree = "<group>"; };
 		D1FB844F1D22345800E24ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1FB845C1D22348A00E24ED3 /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		D1FB845D1D22348A00E24ED3 /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		D1FB845E1D22348A00E24ED3 /* PAAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAAnnotation.h; sourceTree = "<group>"; };
+		D1FB845F1D22348A00E24ED3 /* PAAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAAnnotation.m; sourceTree = "<group>"; };
+		D1FB84601D22348A00E24ED3 /* PACalloutAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACalloutAnnotation.h; sourceTree = "<group>"; };
+		D1FB84611D22348A00E24ED3 /* PACalloutAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACalloutAnnotation.m; sourceTree = "<group>"; };
+		D1FB84621D22348A00E24ED3 /* PACalloutAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PACalloutAnnotationView.h; sourceTree = "<group>"; };
+		D1FB84631D22348A00E24ED3 /* PACalloutAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PACalloutAnnotationView.m; sourceTree = "<group>"; };
+		D1FB84641D22348A00E24ED3 /* PAMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAMapView.h; sourceTree = "<group>"; };
+		D1FB84651D22348A00E24ED3 /* PAMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAMapView.m; sourceTree = "<group>"; };
+		D1FB846B1D22435100E24ED3 /* ditu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ditu@2x.png"; sourceTree = "<group>"; };
+		D1FB846C1D22435100E24ED3 /* ditu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ditu@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +120,7 @@
 		D1FB84271D22345800E24ED3 /* LFMapViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D1FB845B1D22348A00E24ED3 /* PAMapView */,
 				D1FB842B1D22345800E24ED3 /* AppDelegate.h */,
 				D1FB842C1D22345800E24ED3 /* AppDelegate.m */,
 				D1FB842E1D22345800E24ED3 /* ViewController.h */,
@@ -138,6 +158,25 @@
 				D1FB844F1D22345800E24ED3 /* Info.plist */,
 			);
 			path = LFMapViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		D1FB845B1D22348A00E24ED3 /* PAMapView */ = {
+			isa = PBXGroup;
+			children = (
+				D1FB846B1D22435100E24ED3 /* ditu@2x.png */,
+				D1FB846C1D22435100E24ED3 /* ditu@3x.png */,
+				D1FB845C1D22348A00E24ED3 /* MapLocation.h */,
+				D1FB845D1D22348A00E24ED3 /* MapLocation.m */,
+				D1FB845E1D22348A00E24ED3 /* PAAnnotation.h */,
+				D1FB845F1D22348A00E24ED3 /* PAAnnotation.m */,
+				D1FB84601D22348A00E24ED3 /* PACalloutAnnotation.h */,
+				D1FB84611D22348A00E24ED3 /* PACalloutAnnotation.m */,
+				D1FB84621D22348A00E24ED3 /* PACalloutAnnotationView.h */,
+				D1FB84631D22348A00E24ED3 /* PACalloutAnnotationView.m */,
+				D1FB84641D22348A00E24ED3 /* PAMapView.h */,
+				D1FB84651D22348A00E24ED3 /* PAMapView.m */,
+			);
+			path = PAMapView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,7 +283,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1FB84381D22345800E24ED3 /* LaunchScreen.storyboard in Resources */,
+				D1FB846E1D22435100E24ED3 /* ditu@3x.png in Resources */,
 				D1FB84351D22345800E24ED3 /* Assets.xcassets in Resources */,
+				D1FB846D1D22435100E24ED3 /* ditu@2x.png in Resources */,
 				D1FB84331D22345800E24ED3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +311,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1FB846A1D22348A00E24ED3 /* PAMapView.m in Sources */,
+				D1FB84681D22348A00E24ED3 /* PACalloutAnnotation.m in Sources */,
+				D1FB84671D22348A00E24ED3 /* PAAnnotation.m in Sources */,
 				D1FB84301D22345800E24ED3 /* ViewController.m in Sources */,
 				D1FB842D1D22345800E24ED3 /* AppDelegate.m in Sources */,
 				D1FB842A1D22345800E24ED3 /* main.m in Sources */,
+				D1FB84661D22348A00E24ED3 /* MapLocation.m in Sources */,
+				D1FB84691D22348A00E24ED3 /* PACalloutAnnotationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +462,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LFMapViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFMapViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LFMapViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zlf.LFMapViewDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
